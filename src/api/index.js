@@ -79,7 +79,7 @@ $axios.interceptors.response.use(
 
 // get，post请求方法
 export default {
-  post(url, data) {
+  post (url, data) {
     return $axios({
       method: 'post',
       url,
@@ -89,7 +89,7 @@ export default {
       }
     })
   },
-  get(url, params) {
+  get (url, params) {
     return $axios({
       method: 'get',
       url,
